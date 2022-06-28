@@ -1,0 +1,151 @@
+body {
+    background: linear-gradient(#A0CBE3,#fff) fixed
+}
+
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+}
+
+.justified {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 40pt;
+    font-weight: bold;
+    color:#1C546F;
+    background: url("moedas.png") 170px 10px no-repeat;
+}
+
+.logo h1 span {
+    color:#458E35;
+}
+
+.logo, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.velhinhos {
+    margin: 100px 0px;
+}
+
+.img-velhinhos {
+    width: 250px;
+    height: 163px;
+    padding-left: 5px;
+}
+
+.botao {
+    height: 40px;
+    width: 280px;
+    text-align: center;
+    font-size: 14pt;
+    text-decoration: none;
+    border-radius: 8px;
+    line-height: 36px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.botao-azul {
+    background-color: #05055D;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.botao-azul:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.botao-branco {
+    background-color: #fff;
+    border: 1px solid #05055D;
+    color: #05055D;
+}
+
+.botao-branco:hover {
+    text-decoration: underline;
+    color: #05055D;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #1C546F;
+}
+
+.link-azul{
+    color:#1C546F
+}
+
+.link-alternativo {
+    margin-top: 40px;
+    min-width: 280px;    
+}
+
+.link-alternativo a:hover{
+    color:#458E35;
+}
+
+.bi {
+    font-size: 30pt;
+}
+
+.saldo, .acoes {
+    display: flex;
+    align-items: center;
+}
+
+.acoes a {
+    display: block;
+    margin: 30px;
+    color: #000;
+    text-align: center;
+}
+
+.acoes a:hover {
+    color:#05055D;
+}
+
+.saldo {
+    justify-content: center;
+    font-weight: bold;    
+}
+
+.receita span {
+    color: #458E35;
+    font-size: 20pt;
+    margin-right: 25px;
+}
+
+.despesa span {
+    color: #a00;
+    font-size: 20pt;
+}
+
+.header-mes {
+    margin-bottom: 30px;
+}
+
+.header-mes select {
+    background: none;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
